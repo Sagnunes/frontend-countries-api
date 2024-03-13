@@ -1,11 +1,13 @@
 <script setup>
 
+import SearchFieldComponent from '@/SearchFieldComponent.vue'
 </script>
 
 <template>
-  <main>
+  <div>
+    <SearchFieldComponent />
     <h1 class="text-3xl font-bold underline">
       Hello world!
     </h1>
-  </main>
+  </div>
 </template>

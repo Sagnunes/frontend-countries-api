@@ -5,7 +5,16 @@ export default {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        nunito:["Nunito Sans", "sans-serif"]
+      },
+      colors:{
+        darkBlue:{
+          veryDarkLightText:"hsl(200, 15%, 8%)"
+        }
+      }
+    },
   },
   plugins: [],
 }
